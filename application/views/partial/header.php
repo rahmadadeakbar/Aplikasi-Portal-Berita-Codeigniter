@@ -10,9 +10,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" href="images/favicon.ico" type="image/ico" />
+	<link rel="icon" href="<?=base_url()?>assets/production/images/favicon.ico" type="image/ico" />
 
-    <title>Gentelella Alela! | </title>
+    <title>WEB BERITA | </title>
 
     <!-- Bootstrap -->
     <link href="<?= base_url()?>assets/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -36,6 +36,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <link href="<?= base_url()?>assets/vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css" rel="stylesheet">
     <link href="<?= base_url()?>assets/vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="<?= base_url()?>assets/vendors/summernote/summernote.css">
+
     <!-- Custom Theme Style -->
     <link href="<?= base_url()?>assets/build/css/custom.min.css" rel="stylesheet">
   </head>
@@ -46,7 +48,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="index.html" class="site_title"><i class="fa fa-newspaper"></i> <span>WEB BERITA</span></a>
+              <a href="index.html" class="site_title"><i class="fa fa-laptop"></i> <span>WEB BERITA</span></a>
             </div>
 
             <div class="clearfix"></div>
@@ -113,7 +115,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <ul class="nav navbar-nav navbar-right">
                 <li class="">
                   <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                    <img src="images/img.jpg" alt="">John Doe
+                    <img src="<?=base_url()?>assets/production/images/img.jpg" alt="">John Doe
                     <span class=" fa fa-angle-down"></span>
                   </a>
                   <ul class="dropdown-menu dropdown-usermenu pull-right">
@@ -137,7 +139,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
                     <li>
                       <a>
-                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span class="image"><img src="<?=base_url()?>assets/production/images/img.jpg" alt="Profile Image" /></span>
                         <span>
                           <span>John Smith</span>
                           <span class="time">3 mins ago</span>
@@ -149,7 +151,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </li>
                     <li>
                       <a>
-                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span class="image"><img src="<?=base_url()?>assets/production/images/img.jpg" alt="Profile Image" /></span>
                         <span>
                           <span>John Smith</span>
                           <span class="time">3 mins ago</span>
@@ -161,7 +163,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </li>
                     <li>
                       <a>
-                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span class="image"><img src="<?=base_url()?>assets/production/images/img.jpg" alt="Profile Image" /></span>
                         <span>
                           <span>John Smith</span>
                           <span class="time">3 mins ago</span>
@@ -173,7 +175,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </li>
                     <li>
                       <a>
-                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span class="image"><img src="<?=base_url()?>assets/production/images/img.jpg" alt="Profile Image" /></span>
                         <span>
                           <span>John Smith</span>
                           <span class="time">3 mins ago</span>

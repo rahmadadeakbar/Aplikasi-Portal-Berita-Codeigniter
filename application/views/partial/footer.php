@@ -65,6 +65,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <script src="<?= base_url()?>assets/vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js"></script>
     <script src="<?= base_url()?>assets/vendors/datatables.net-scroller/js/dataTables.scroller.min.js"></script>
 
+    <script src="<?= base_url()?>assets/vendors/ckeditor/ckeditor.js"></script>
+    <script src="<?= base_url()?>assets/vendors/summernote/summernote.js"></script>
+
     <!-- Custom Theme Scripts -->
     <script src="<?= base_url()?>assets/build/js/custom.min.js"></script>
 	
